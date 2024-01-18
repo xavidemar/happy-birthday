@@ -99,10 +99,6 @@ document.addEventListener("DOMContentLoaded", function () {
         const now = new Date();
         //const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
         const midnight = new Date(2024, 0, 18,0,0,0);
-        console.log(now.getFullYear())
-        console.log(now.getMonth())
-        console.log(now.getDate())
-        console.log(midnight)
         const diff = Math.max(0, midnight - now);
         console.log(diff)
         if(diff>0){
