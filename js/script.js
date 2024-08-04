@@ -98,7 +98,7 @@ document.addEventListener("DOMContentLoaded", function () {
     function updateCountdown() {
         const now = new Date();
         //const midnight = new Date(now.getFullYear(), now.getMonth(), now.getDate() + 1);
-        const midnight = new Date(2024, 0, 18,0,0,0);
+        const midnight = new Date(2025, 0, 18,0,0,0);
         const diff = Math.max(0, midnight - now);
         console.log(diff)
         if(diff>0){
